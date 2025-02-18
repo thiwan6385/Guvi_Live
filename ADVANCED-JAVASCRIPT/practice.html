@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+</head>
+<body>
+    <h1 id="Wel">Hello Guys</h1>
+    <p id="Para">Hello, <br /> 
+    h r u?</p>
+    <button onclick="change()">change</button>
+    <div>
+        <ol>
+            <li>student1</li>
+            <li>student2</li>
+            <li id="stu3">student3</li>
+            <li>student4</li>
+            <li>student5</li>
+        </ol>
+        <p id="Welcome"></p>
+    </div>
+
+    <script>
+        function change() {
+             let element= document.getElementById("Wel");
+        element.innerHTML="Vanakkam";
+
+        let query=document.querySelector("li");
+        console.log(query);
+        
+
+        let paraElement=document.getElementById("Para");
+        paraElement.innerHTML="<h2> Welcome</h2> <h3>Welcome</h3>"
+        console.log("Thiwan");
+        
+            
+        }
+        
+    </script>
+</body>
+</html>

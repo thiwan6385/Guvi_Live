@@ -1,0 +1,9 @@
+.scrollable {
+    position:relative;
+    background-color: orange;
+    padding: 1rem;
+    margin: 10px;
+    border: 2px solid black;
+    height: 8rem;
+    overflow: auto;
+}

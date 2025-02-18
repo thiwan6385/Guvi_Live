@@ -12,7 +12,7 @@
 
 let students=["Thiwan","Mydeen","bala","shemba","murugan"]
 
-let stulist=students.map((stuname)=> stuname + " Joker boys");
+let stulist=students.map((stuname)=> stuname +" Joker Boys");
 console.log(stulist);
 
 students.forEach((stuname)=>{
