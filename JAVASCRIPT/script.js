@@ -1,12 +1,24 @@
-let fruits=["Apple","Mangoes","Pine Apple"]
+// let fruits=["Apple","Mangoes","Pine Apple"]
 
-console.log(fruits.length)
+// console.log(fruits.length)
 
-let basket=fruits.map((fruit) => fruit + "juice");
-console.log(basket);
+// let basket=fruits.map((fruit) => fruit + "juice");
+// console.log(basket);
 
-let studets=["Thiwan","Nalini","Banu","Raja","Raji","Rajes"]
+// let students =["Thiwan","Nalini","Banu","Raja","Raji","Rajes"]
 
-for (i=0; i<studets.length; i++) {
-    
+// for (i=0; i<students.length; i++) {
+//     console.log([i])
+
+let students=["Thiwan","Mydeen","bala","shemba","murugan"]
+
+let stulist=students.map((stuname)=> stuname + " Joker boys");
+console.log(stulist);
+
+students.forEach((stuname)=>{
+    console.log(stuname);
+})
+   
+for (i=0;i<students.length;i++){
+    console.log(students[i]);
 }
